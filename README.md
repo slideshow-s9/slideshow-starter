@@ -5,7 +5,7 @@ Write your own talks in plain text (with Markdown).
 ## What's included?
 
 - A first sample talk (see [`sample1.text`](sample1.text)) 
-- A second sample talk (see [`sample2.text`](sample2.text)) incl. some macros/helpers e.g. `left`, `right`, `step`, `google_analytics` etc.
+- A second sample talk (see [`sample2.text`](sample2.text)) incl. some macros/helpers e.g. `left`, `right`, `step`, etc.
 
 
 ## Build Instructions
