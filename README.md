@@ -1,4 +1,4 @@
-# Slide Show Quick Starter Kit
+# Slide Show (S9) Quick Starter Kit
 
 Write your own talks in plain text (with Markdown).
 
