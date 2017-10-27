@@ -8,6 +8,22 @@ Write your own talks in plain text (with Markdown).
 - A second sample talk (see [`sample2.text`](sample2.text)) incl. some macros/helpers e.g. `left`, `right`, `step`, etc.
 
 
+## Step 0: Setup Templates Packs & Plugins 
+
+Use the Slide Show (S9) command line tool to download (fetch) the template pack and plugin helpers.
+
+```
+$ slideshow install s6blank        # fetch s6 blank template pack
+$ slideshow install plugins        # fetch (standard) plugin helpers
+```
+
+To double check what template packs and plugins you have installed try:
+
+```
+$ slideshow list
+```
+
+
 ## Build Instructions
 
 Use the Slide Show (S9) command line tool to build
@@ -15,7 +31,7 @@ a web page (e.g. `sample1.html` or `sample2.html`)
 that is an all-in-one-page handout and a live slide show all at once.
 
 ```
-$ slideshow build sample1.text
+$ slideshow build sample1.text -t s6blank
 
 => Preparing slideshow 'sample1.html'...
 => Done.
