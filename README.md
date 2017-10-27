@@ -10,7 +10,7 @@ Write your own talks in plain text (with Markdown).
 
 ## Step 0: Setup Templates Packs & Plugins 
 
-Use the Slide Show (S9) command line tool to download (fetch) the template pack and plugin helpers.
+Use the Slide Show (S9) command line tool to download (fetch) the template pack and plugin helpers:
 
 ```
 $ slideshow install s6blank        # fetch s6 blank template pack
