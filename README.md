@@ -27,6 +27,24 @@ $ slideshow list
 resulting in:
 
 ```
+Installed plugins in search path
+    [1] plugins/*.{txt.plugin,plugin.txt}
+    [2] plugins/*/*.{txt.plugin,plugin.txt}
+    [3] ~/.slideshow/plugins/*.{txt.plugin,plugin.txt}
+    [4] ~/.slideshow/plugins/*/*.{txt.plugin,plugin.txt}
+  include:
+       analytics (~/.slideshow/plugins/analytics/analytics.txt.plugin)
+        snippets (~/.slideshow/plugins/snippets/snippets.txt.plugin)
+          tables (~/.slideshow/plugins/tables/tables.txt.plugin)
+
+Installed template packs in search path
+    [1] templates/*.txt
+    [2] templates/*/*.txt
+    [3] node_modules/*/*.txt
+    [4] ~/.slideshow/templates/*.txt
+    [5] ~/.slideshow/templates/*/*.txt
+  include:
+         s6blank (~/.slideshow/templates/s6blank/s6blank.txt)
 ```
 
 
