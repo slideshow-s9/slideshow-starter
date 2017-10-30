@@ -1,6 +1,7 @@
 # Slide Show (S9) Quick Starter Kit
 
-Write your own talks in plain text (with Markdown).
+Write your own talks in plain text with Markdown formatting conventions.
+
 
 ## What's included?
 
@@ -23,6 +24,11 @@ To double check what template packs and plugins you have installed try:
 $ slideshow list
 ```
 
+resulting in:
+
+```
+```
+
 
 ## Build Instructions
 
@@ -31,15 +37,25 @@ a web page (e.g. `sample1.html` or `sample2.html`)
 that is an all-in-one-page handout and a live slide show all at once.
 
 ```
-$ slideshow build sample1.text -t s6blank
+$ slideshow build sample1.text
 
 => Preparing slideshow 'sample1.html'...
+=> Done.
+```
+
+And one more time.
+
+```
+$ slideshow build sample2.text
+
+=> Preparing slideshow 'sample2.html'...
 => Done.
 ```
 
 That's it. Open up your slide show `sample1.html` or `sample2.html` in your browser
 (Firefox, Chrome, Opera, Safari, Edge and others) and hit F11 to switch into full screen projection
 and hit the space bar or the right arrow, down arrow or page down key to flip through your slides.
+
 
 
 
@@ -51,5 +67,3 @@ Use it as you please with no restrictions whatsoever.
 ## Questions? Comments?
 
 Send them along to the [wwwmake mailing list/forum](http://groups.google.com/group/wwwmake). Thanks.
-
-
